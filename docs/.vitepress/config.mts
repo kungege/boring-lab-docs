@@ -8,22 +8,26 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' },
-      { text: '收藏地点', link: '/markdown-examples' },
-      { text: '地点收藏夹', link: '/markdown-examples' },
-      { text: '与朋友协作', link: '/markdown-examples' }
+      { text: '轻松漫游使用指南', link: '/' },
+      { text: '关于应用', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '地点收藏',
         items: [
-          { text: '主页', link: '/' },
-          { text: '收藏地点', link: '/markdown-examples' },
-          { text: '地点收藏夹', link: '/markdown-examples' },
-          { text: '与朋友协作', link: '/markdown-examples' }
+          { text: '地图选点', link: '/markdown-examples' },
+          { text: '解析链接/文字', link: '/markdown-examples' },
+        ]
+      },
+      {
+        text: '收藏夹',
+        items: [
+          { text: '收藏夹管理', link: '/markdown-examples' },
+          { text: '与朋友协作收藏', link: '/markdown-examples' },
         ]
       }
     ],
+    appearance: false
   }
 })
