@@ -7,7 +7,7 @@ hero:
   text: "轻松漫游文档"
   tagline: 产品 slogan
   image:
-        src: /assets/hello.png
+        src: /hello.png
         
 features:
   - title: Feature A

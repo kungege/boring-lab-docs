@@ -28,6 +28,5 @@ export default defineConfig({
         ]
       }
     ],
-    appearance: false
   }
 })
