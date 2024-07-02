@@ -4,19 +4,15 @@ layout: home
 
 hero:
   name: "轻松漫游"
-  text: "轻松漫游帮助文档"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
+  text: "轻松漫游文档"
+  tagline: 产品 slogan
+  image:
+        src: /assets/hello.png
+        
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /markdown-examples
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
