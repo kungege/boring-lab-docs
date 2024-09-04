@@ -2,31 +2,46 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "轻松漫游用户指南",
-  description: "轻松漫游使用指南",
+  title: "漫游家用户指南",
+  description: "漫游家用户指南",
   base: "/boring-lab-docs/",
   themeConfig: {
+    logo: "assets/doc_logo.png",
+    logoLink: "/boring-lab-docs/roamer",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '轻松漫游使用指南', link: '/' },
-      { text: '关于应用', link: '/markdown-examples' }
+      { text: '漫游家使用指南', link: '/roamer' },
+      { text: '关于', link: '/roamer/about/about-app' }
     ],
 
     sidebar: [
       {
         text: '地点收藏',
         items: [
-          { text: '地图选点', link: '/markdown-examples' },
-          { text: '解析链接/文字', link: '/markdown-examples' },
+          { text: '手动添加', link: '/roamer/point/map' },
+          { text: '内容 AI 解析', link: '/roamer/point/parse' },
         ]
       },
       {
         text: '收藏夹',
         items: [
-          { text: '收藏夹管理', link: '/markdown-examples' },
-          { text: '与朋友协作收藏', link: '/markdown-examples' },
+          { text: '收藏夹管理', link: '/roamer/collection/collection' },
+          { text: '与朋友协作收藏', link: '/roamer/collection/collaborate' },
+        ]
+      },
+
+      {
+        text: '关于',
+        items: [
+          { text: '关于应用', link: '/roamer/about/about-app' },
+          { text: '更新计划', link: '/roamer/about/update-plan' },
+          { text: '联系我们', link: '/roamer/about/contact' },
         ]
       }
     ],
+    footer: {
+      message: 'Copyright ©2024 Boring Lab',
+      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>'
+    }
   }
 })
