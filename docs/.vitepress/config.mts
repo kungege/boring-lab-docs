@@ -46,6 +46,7 @@ export default defineConfig({
         items: [
           { text: '用户协议', link: '/roamer/agreement/user-agreement' },
           { text: '隐私协议', link: '/roamer/agreement/user-privacy' },
+          { text: '增值服务协议', link: '/roamer/agreement/payment' },
         ]
       }
     ],
