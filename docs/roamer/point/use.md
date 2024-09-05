@@ -3,7 +3,7 @@
 
 ---
 
-#### 地点快速编辑 & 预览
+#### 地点预览
 
 <br/>
 <div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
@@ -11,7 +11,6 @@
 </div>
 
 ![alt 快捷操作](../assets/guide/image-point-item-action.jpg)
-
 
 <div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
 点击条目即可查看详情信息。
@@ -37,3 +36,12 @@
 <div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
 其它地图 App 同理。
 </div>
+
+#### 编辑地点
+
+<br/>
+<div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
+点击地点条目后，选择 “编辑” 按钮即可进入地点编辑页面; 修改完成后点击保存即可。
+</div>
+
+![alt 地点编辑](../assets/guide/image-point-edit.jpg)

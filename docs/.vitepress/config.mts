@@ -41,11 +41,16 @@ export default defineConfig({
     ],
     footer: {
       message: 'Copyright ©2024 Boring Lab',
-      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>'
+      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>',
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
     },
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '回到顶部',
     outline: { label: '页内导航'},
-    darkModeSwitchLabel: '切换主题'
+    darkModeSwitchLabel: '切换主题',
+
   }
 })
