@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "漫游家用户指南",
   description: "漫游家用户指南",
-  base: "/boring-lab-docs/",
+  base: "/docs/",
   themeConfig: {
     logo: "/doc_logo.png",
     logoLink: "/boring-lab-docs/roamer",
