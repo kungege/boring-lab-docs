@@ -6,7 +6,7 @@ export default defineConfig({
   description: "漫游家用户指南",
   base: "/boring-lab-docs/",
   themeConfig: {
-    logo: "./assets/doc_logo.png",
+    logo: "/doc_logo.png",
     logoLink: "/boring-lab-docs/roamer",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
