@@ -5,6 +5,9 @@ export default defineConfig({
   title: "漫游家用户指南",
   description: "漫游家用户指南",
   base: "/boring-lab-docs/",
+  appearance: {
+    valueDark: 'false'
+  },
   themeConfig: {
     logo: "/doc_logo.png",
     logoLink: "/boring-lab-docs/roamer",
@@ -34,8 +37,15 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '关于应用', link: '/roamer/about/about-app' },
-          { text: '更新计划', link: '/roamer/about/update-plan' },
+          // { text: '更新计划', link: '/roamer/about/update-plan' },
           { text: '联系我们', link: '/roamer/about/contact' },
+        ]
+      },
+      {
+        text: '协议',
+        items: [
+          { text: '用户协议', link: '/roamer/agreement/user-agreement' },
+          { text: '隐私协议', link: '/roamer/agreement/user-privacy' },
         ]
       }
     ],
@@ -51,6 +61,10 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     outline: { label: '页内导航'},
     darkModeSwitchLabel: '切换主题',
-
+    notFound: {
+      title: '页面走失了...',
+      quote: '',
+      linkText: '返回首页',
+    }
   }
 })
