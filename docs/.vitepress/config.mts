@@ -52,7 +52,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Copyright ©2024 Boring Lab',
-      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>',
+      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a><br/><a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-3A</a>',
     },
     docFooter: {
       prev: '上一页',
