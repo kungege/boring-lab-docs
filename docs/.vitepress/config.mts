@@ -13,13 +13,13 @@ export default defineConfig({
       { text: '漫游家使用指南', link: '/roamer' },
       { text: '关于', link: '/roamer/about/about-app' }
     ],
-
     sidebar: [
       {
         text: '地点收藏',
         items: [
           { text: '手动添加', link: '/roamer/point/map' },
           { text: '内容 AI 解析', link: '/roamer/point/parse' },
+          { text: '使用地点', link: '/roamer/point/use' },
         ]
       },
       {
@@ -42,6 +42,10 @@ export default defineConfig({
     footer: {
       message: 'Copyright ©2024 Boring Lab',
       copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>'
-    }
+    },
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '回到顶部',
+    outline: { label: '页内导航'},
+    darkModeSwitchLabel: '切换主题'
   }
 })

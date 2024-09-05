@@ -21,9 +21,3 @@ features:
     link: /roamer/about/about-app
 ---
 
-<style>
-  :root {
-    --vp-c-brand-1: #59BC88;
-  }
-</style>
-
