@@ -7,7 +7,7 @@ hero:
   text: "用户使用文档"
   tagline: 足迹所至，皆为珍藏。
   image:
-    src: assets/hello.png
+    src: ./assets/hello.png
     alt: 漫游家
 features:
   - title: 地点收藏
