@@ -5,12 +5,15 @@ export default defineConfig({
   title: "漫游家用户指南",
   description: "漫游家用户指南",
   base: "/docs/",
+  appearance: {
+    valueDark: 'false'
+  },
   themeConfig: {
     logo: "/doc_logo.png",
     logoLink: "/docs/roamer",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '漫游家使用指南', link: '/roamer' },
+      { text: '漫游家用户指南', link: '/roamer' },
       { text: '关于', link: '/roamer/about/about-app' }
     ],
     sidebar: [
@@ -34,14 +37,21 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '关于应用', link: '/roamer/about/about-app' },
-          { text: '更新计划', link: '/roamer/about/update-plan' },
           { text: '联系我们', link: '/roamer/about/contact' },
+        ]
+      },
+      {
+        text: '协议',
+        items: [
+          { text: '用户协议', link: '/roamer/agreement/user-agreement' },
+          { text: '隐私协议', link: '/roamer/agreement/user-privacy' },
+          { text: '增值服务协议', link: '/roamer/agreement/payment' },
         ]
       }
     ],
     footer: {
       message: 'Copyright ©2024 Boring Lab',
-      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a>',
+      copyright: '<a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-1</a><br/><a href="https://beian.miit.gov.cn/">鲁ICP备2022015256号-3A</a>',
     },
     docFooter: {
       prev: '上一页',
@@ -51,6 +61,10 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     outline: { label: '页内导航'},
     darkModeSwitchLabel: '切换主题',
-
+    notFound: {
+      title: '页面走失了...',
+      quote: '',
+      linkText: '返回首页',
+    }
   }
 })
