@@ -13,7 +13,7 @@ export default defineConfig({
     logoLink: "/boring-lab-docs/roamer",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '漫游家使用指南', link: '/roamer' },
+      { text: '漫游家用户指南', link: '/roamer' },
       { text: '关于', link: '/roamer/about/about-app' }
     ],
     sidebar: [
@@ -37,7 +37,6 @@ export default defineConfig({
         text: '关于',
         items: [
           { text: '关于应用', link: '/roamer/about/about-app' },
-          // { text: '更新计划', link: '/roamer/about/update-plan' },
           { text: '联系我们', link: '/roamer/about/contact' },
         ]
       },
