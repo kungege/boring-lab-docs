@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "漫游家"
-  text: "用户使用文档"
+  text: "用户指南"
   tagline: 足迹所至，皆为珍藏。
   image:
     src: /hello.png
