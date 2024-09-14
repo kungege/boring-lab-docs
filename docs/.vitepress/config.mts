@@ -5,9 +5,7 @@ export default defineConfig({
   title: "漫游家用户指南",
   description: "漫游家用户指南",
   base: "/docs/",
-  appearance: {
-    valueDark: 'false'
-  },
+  appearance: false,
   themeConfig: {
     logo: "/doc_logo.png",
     logoLink: "/docs/roamer",
@@ -21,7 +19,7 @@ export default defineConfig({
         text: '地点收藏',
         items: [
           { text: '手动添加', link: '/roamer/point/map' },
-          { text: '内容 AI 解析', link: '/roamer/point/parse' },
+          { text: '🌟 AI 解析', link: '/roamer/point/parse' },
           { text: '使用地点', link: '/roamer/point/use' },
         ]
       },
