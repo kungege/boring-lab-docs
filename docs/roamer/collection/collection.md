@@ -13,14 +13,14 @@
 2. 您也可以在首页收藏夹列表的末端进入收藏夹管理页面进行创建操作。
 </div>
 
-![alt 收藏夹管理](image-collection-manage-button.jpg)
+![alt 收藏夹管理](../assets/guide/image-collection-manage-button.jpg)
 
 ## 收藏夹列表
 <div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
 点击首页收藏夹列表的末端进入收藏夹管理页面。
 </div>
 
-![alt 收藏夹管理](image-collection-manage-button.jpg)
+![alt 收藏夹管理](../assets/guide/image-collection-manage-button.jpg)
 
 ## 收藏夹详情
 <div style="background-color: #59bc872f; padding: 12px; border-radius: 10px;">
@@ -28,7 +28,7 @@
 点击右上角的编辑按钮即可进入编辑页面。
 </div>
 
-![alt 收藏夹详情](../assets/image-collection-detail.jpg)
+![alt 收藏夹详情](../assets/guide/image-collection-detail.jpg)
 
 ## 删除
 
