@@ -18,9 +18,10 @@ export default defineConfig({
       {
         text: '地点收藏',
         items: [
-          { text: '手动添加', link: '/roamer/point/map' },
           { text: '🌟 AI 解析', link: '/roamer/point/parse' },
-          { text: '使用地点', link: '/roamer/point/use' },
+          { text: '👆🏻 手动添加', link: '/roamer/point/map' },
+          { text: '📷 随手拍', link: '/roamer/point/ocr-parse' },
+          { text: '📍 使用地点', link: '/roamer/point/use' },
         ]
       },
       {
